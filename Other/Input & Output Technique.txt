@@ -1,0 +1,36 @@
+There are N lines, each lines always start with character '0' followed by '.', then unknown
+number of digits x, finally the line always terminated by three dots "...".
+
+N
+0.xxxx...
+
+The fastest way to do it is:
+
+#include <stdio.h>
+char digits[100];
+
+
+void main() {
+scanf("%d",&N);
+for (i=0; i<N; i++)  {
+       scanf("0.%[0-9]...",&digits); // surprised?
+       printf("the digits are 0.%s\n",digits);
+     }
+}
+
+
+Advanced use of printf() and scanf()
+
+Those who have forgotten the advanced use of printf() and scanf(), recall the following
+examples:
+
+scanf("%[ABCDEFGHIJKLMNOPQRSTUVWXYZ]",&line); //line is a string
+
+This scanf() function takes only uppercase letters as input to line and any other characters
+other than A..Z terminates the string. Similarly the following scanf() will behave like
+gets():
+
+scanf("%[^\n]",line); //line is a string
+
+Learn the default terminating characters for scanf(). Try to read all the advanced features of
+scanf() and printf(). This will help you in the long run.
