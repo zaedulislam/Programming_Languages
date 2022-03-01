@@ -1,1 +1,5 @@
-# Programming_Languages
+# Programming Languages
+- Python
+- C++
+- Scala
+- JavaScript
