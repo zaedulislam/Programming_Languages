@@ -22,6 +22,6 @@ def determineShapeOfNPZFile(datasetName, dataset):
             # break
         break
 
-findShape('Custom', customDataset)
-findShape('Human3.6M', humanDataset)
+determineShapeOfNPZFile('Custom', customDataset)
+determineShapeOfNPZFile('Human3.6M', humanDataset)
 
