@@ -6,7 +6,7 @@ customDataset = load('data_2d_custom_myvideos.npz', allow_pickle=True)['position
 humanDataset = load('data_2d_h36m_detectron_ft_h36m.npz', allow_pickle=True)['positions_2d'].item()
 
 
-def findShape(datasetName, dataset):
+def determineShapeOfNPZFile(datasetName, dataset):
     print("Dataset: ",datasetName)
 
     for subject, subjectValue in dataset.items():
