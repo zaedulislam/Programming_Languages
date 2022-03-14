@@ -9,3 +9,4 @@ Difference between `single dash` and `double dash` in `argparse`?
 # Reference
 - https://stackoverflow.com/questions/35603729/difference-between-single-dash-and-double-dash-in-argparse
 - https://www.gnu.org/software/libc/manual/html_node/Argument-Syntax.html
+- [Rename Files in Python](https://pynative.com/python-rename-file/#h-renaming-only-a-list-of-files-in-a-folder)
