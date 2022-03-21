@@ -1,10 +1,10 @@
 # Python
 
-Difference between `single dash` and `double dash` in `argparse`?
+##### Difference between `single dash` and `double dash` in `argparse`?
 - Arguments are options if they begin with a hyphen delimiter (‘-’).
 - If following the usual conventions, the single dash arguments only consist of a single char, thus, `-abc` is identical to `-a -b -c`. Parameter names with double-dash are treated as whole words, so `--abc` is only a single parameter named `abc`.
 
-How to run multiple python scripts at once?
+##### How to run multiple python scripts at once?
 ###### Method #1 - Using Bash Script
 Create another folder named bash_script. In which, test.sh exist
 
