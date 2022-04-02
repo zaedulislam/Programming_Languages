@@ -19,7 +19,7 @@ int main() {
         }
         catch(const char* error){
             // String literals, like "error", do not match char*, it needs to be const char*
-            // Alternate 1: string error
+            // Alternate 1: catch(string error){...}
             
             cout << error << endl;
             break;
