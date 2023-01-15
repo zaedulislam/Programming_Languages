@@ -57,6 +57,11 @@ while( !q.empty() )
      q.pop(); 								// removing that one
 }
 
+# Min-heap Priority Queue
+// Create a priority queue of int
+// arranges elements in ascending order
+priority_queue<int, vector<int>, greater<int>> numbers;
+
 6. STL std::iterator
 vector< int > :: iterator it;
 vector< double > :: iterator it;
