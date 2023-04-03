@@ -19,7 +19,7 @@ public class Email {
 		this.lastName = lastName;
 
 		// Call a method asking for the department - return the department
-		this.department = setDeaprtment();
+		this.department = setDepartment();
 
 		// Call a method that returns a random password
 		this.password = randomPassword(defaultPasswordLength);
@@ -29,7 +29,7 @@ public class Email {
 	}
 
 	// Ask for the department
-	private String setDeaprtment(){
+	private String setDepartment(){
 		System.out.println("New worker: " + firstName + "\nDepartment Codes:\n1 for Engineering\n2 for Data\n3 for Research\n0 for none\nEnter department code: ");
 
 		Scanner in = new Scanner(System.in);
