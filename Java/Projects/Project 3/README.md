@@ -15,3 +15,13 @@ Your application should do the following:
 * Checking Account holders are assigned a Debit Card with a 12-digit number and 4-digit PIN
 * Both accounts will use an interface the base interest rate.
 Savings accounts will use .25 points less than the best rate
+
+
+## Learning objectives:
+- Learn to develop a robust application architecture
+- Use when to use abstract classes and abstract methods
+- Use an interface API to receive information from a developer's application
+- Explore constructors deeper and use the super() keyword
+- Explore access modifiers and when to use public, private, or protected
+- Read data from a file and store in an appropriate data structure
+- Generate random numbers and work with String API
