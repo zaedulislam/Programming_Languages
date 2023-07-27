@@ -11,10 +11,10 @@ t = v;
 v.push_back(100);
 v.clear();
 v.size();
-v.resize(SIZE, false);		// Initializes with 0
-v.resize(SIZE, true);		// Initializes with 1
+v.resize(SIZE, false);				// Initializes with 0
+v.resize(SIZE, true);				// Initializes with 1
 v.resize(SIZE, x)				// x = any value
-v.erase(v.begin(), v.begin() + 1); // Removes the first element
+v.erase(v.begin(), v.begin() + 1); 		// Removes the first element
 cout << v[I] << endl;
 printf("%d\n", v[I]);
 
